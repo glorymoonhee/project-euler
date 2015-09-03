@@ -35,12 +35,11 @@ public class number3 {
 		long input = value;
          
          while(true){ 
+        	  // 600851475143L / 2L ==1 && 
         	 if(input / divider ==1 && input % divider==0){
         		 maxPrime =divider;
         		 break;
         	 }
-        	 
-         	 
         	 
 		if(input % divider !=0){
 			divider++;
@@ -48,7 +47,7 @@ public class number3 {
 			input /= divider;
 			maxPrime = divider;
 		}
-         }
+         }//while 문 끝
 		
          return maxPrime;
 	}
