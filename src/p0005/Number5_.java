@@ -7,7 +7,7 @@ public class Number5_ {
 	
 	public static void main(String[] args) {
 	
-	int x =1;
+	long x =1;
 	
 	for(int i=2;i<=20;i++){
 		
@@ -19,11 +19,11 @@ public class Number5_ {
 	System.out.println(x);
 	}
 
-	private static int getlcm(int a, int b) {
+	private static long getlcm(long a, long b) {
 		return a*b/getgcd(a,b);
 	}
 
-	public static int getgcd(int p, int q)
+	public static long getgcd(long p, long q)
 	 {                        
  		if (q == 0) return p;
 		return getgcd(q, p%q); 

@@ -24,18 +24,8 @@ public class Number7 {
    		  i++;
    		  
    	  }
- 	System.out.println(primes[0]); //2
-   	System.out.println(primes[1]); //3
- 	System.out.println(primes[2]); //2
-   	System.out.println(primes[3]); //3
- 	System.out.println(primes[4]); //2
-   	System.out.println(primes[5]); //3
- 	System.out.println(primes[6]); //2
-   	System.out.println(primes[7]); //3
-   	System.out.println(primes[8]); //3
-   	System.out.println(primes[9]); //3
-   	System.out.println(primes[10]); //3
-System.out.println(primes[10000]);//5
+ 
+   System.out.println(primes[10000]);//5
 
 
 }
@@ -48,7 +38,7 @@ System.out.println(primes[10000]);//5
 				return true;
 			}
 			return false;
-		}
+		} 
 	for(int i=3; i*i<=input; i+=2){ //2~ 10까지 나누어지면 ㄱ
             //3~ 3<11 3 5 7 9 11		 
 		if(input % i==0){  //2로나누어지면. 
