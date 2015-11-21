@@ -5,6 +5,8 @@ import java.util.Map;
 import p0015.Point;
 public class Number15 {
 /*
+ *  (3, 3)
+ *  
  * 
  * A(0,0) B(0,1) C(0,2)
  D(1,0) E(1,1) F(1,2)
@@ -30,7 +32,7 @@ public class Number15 {
 		// 2.0 2.1 2.2 2.3
 		// 3,0 3.1 3.2 3.3
 		//map.put(new Point(irow,icol), 3);
-	     if(map.get(new Point(irow, icol))==null){ //없으면
+ 	     if(map.get(new Point(irow, icol))==null){ //없으면
 	    	 
 	     
 	
