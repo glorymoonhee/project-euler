@@ -40,7 +40,7 @@ public class Number15 {
 			return 1;
 		}
 		
-		
+		 
 		result = countPath(irow + 1, icol, x, y) + countPath( irow, icol + 1, x, y);
 		  map.put(new Point(irow,icol), result);
 	     return result;
